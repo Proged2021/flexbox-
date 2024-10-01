@@ -1,0 +1,54 @@
+h1 {
+    color: #0bd;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+h2 {
+    color: navy;
+}
+
+.line {
+    border-width: medium;
+    border-style: double;
+    margin: 30px;
+    height: auto;
+    text-align: center;
+    padding: 20px; /* 内側のスペースを確保 */
+    width: 50%; /* 横幅を画面の80%に調整 */
+    margin-left: auto; /* 左右中央揃え */
+    margin-right: auto; /* 左右中央揃え */
+}
+
+.text1 {
+    text-align: center;
+    color: rgb(10, 130, 160, .5)    
+}
+
+.sample1 {
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: 40%;
+}
+
+
+.container {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around; /* 各アイテムの間にスペースを確保 */
+    align-items: center; /* 各アイテムの垂直方向を中央揃え */
+    flex-wrap: wrap; /* 幅が足りない場合に自動的に改行されるようにする */
+}
+
+.item {
+    flex: 1; /* 各アイテムが均等にスペースを取る */
+    max-width: 30%; /* 各アイテムの最大幅を30%に設定 */
+    margin: 10px; /* 各アイテムに少し余白を追加 */
+}
+
+.item img {
+    width: 100%; /* 画像の横幅を親要素に合わせる */
+    height: auto; /* 画像の高さを自動で調整して比率を保つ */
+    object-fit: contain; /* 画像がはみ出さないように調整 */
+}
+
